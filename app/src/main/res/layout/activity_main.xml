@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A9B5C8"
+    android:backgroundTint="#B5C3CD"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/clearBTN"
+        android:layout_width="87dp"
+        android:layout_height="53dp"
+        android:layout_margin="0dp"
+        android:layout_marginStart="199dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="199dp"
+        android:backgroundTint="#CD3E3E"
+        android:text="CE"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zeroBTN" />
+
+    <Button
+        android:id="@+id/eightBTN"
+        android:layout_width="87dp"
+        android:layout_height="53dp"
+        android:layout_margin="3dp"
+        android:layout_marginTop="21dp"
+        android:backgroundTint="#4590CC"
+        android:text="8"
+
+        android:textSize="28sp"
+        app:layout_constraintEnd_toStartOf="@+id/nineBTN"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/sevenBTN"
+        app:layout_constraintTop_toBottomOf="@+id/fiveBTN" />
+
+    <Button
+        android:id="@+id/sevenBTN"
+        android:layout_width="87dp"
+        android:layout_height="53dp"
+        android:layout_margin="3dp"
+        android:layout_marginTop="21dp"
+        android:backgroundTint="#4590CC"
+        android:text="7"
+
+        android:textSize="28sp"
+        app:layout_constraintEnd_toStartOf="@+id/eightBTN"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fourBTN" />
+
+    <Button
+        android:id="@+id/plusBTN"
+        android:layout_width="87dp"
+        android:layout_height="53dp"
+        android:layout_margin="3dp"
+        android:layout_marginTop="21dp"
+        android:backgroundTint="#5C7C3B"
+
+        android:text="+"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/nineBTN"
+        app:layout_constraintTop_toBottomOf="@+id/divideBTN" />
+
+    <Button
+        android:id="@+id/nineBTN"
+        android:layout_width="87dp"
+        android:layout_height="53dp"
+        android:layout_margin="3dp"
+        android:layout_marginTop="21dp"
+        android:backgroundTint="#4590CC"
+
+        android:text="9"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toStartOf="@+id/plusBTN"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/eightBTN"
+        app:layout_constraintTop_toBottomOf="@+id/sixBTN" />
+
+    <Button
+        android:id="@+id/fourBTN"
+        android:layout_width="87dp"
+
+        android:layout_height="53dp"
+        android:layout_margin="3dp"
+        android:layout_marginTop="19dp"
+        android:backgroundTint="#4590CC"
+        android:text="4"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toStartOf="@+id/fiveBTN"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oneBTN" />
+
+    <Button
+        android:id="@+id/fiveBTN"
+        android:layout_width="87dp"
+
+        android:layout_height="53dp"
+        android:layout_margin="3dp"
+        android:layout_marginTop="19dp"
+        android:backgroundTint="#4590CC"
+        android:text="5"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toStartOf="@+id/sixBTN"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/fourBTN"
+        app:layout_constraintTop_toBottomOf="@+id/twoBTN" />
+
+    <Button
+        android:id="@+id/sixBTN"
+        android:layout_width="87dp"
+
+        android:layout_height="53dp"
+        android:layout_margin="3dp"
+        android:layout_marginTop="19dp"
+        android:backgroundTint="#4590CC"
+        android:text="6"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toStartOf="@+id/divideBTN"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/fiveBTN"
+        app:layout_constraintTop_toBottomOf="@+id/threeBTN" />
+
+    <Button
+        android:id="@+id/divideBTN"
+        android:layout_width="87dp"
+
+        android:layout_height="53dp"
+        android:layout_margin="3dp"
+        android:layout_marginTop="19dp"
+        android:backgroundTint="#5C7C3B"
+        android:text="/"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/sixBTN"
+        app:layout_constraintTop_toBottomOf="@+id/multiplyBTN" />
+
+    <Button
+        android:id="@+id/zeroBTN"
+        android:layout_width="87dp"
+
+        android:layout_height="53dp"
+        android:layout_margin="3dp"
+        android:layout_marginTop="22dp"
+        android:backgroundTint="#4590CC"
+        android:text="0"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toStartOf="@+id/resultBTN"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/dotBTN"
+        app:layout_constraintTop_toBottomOf="@+id/eightBTN" />
+
+    <Button
+        android:id="@+id/dotBTN"
+        android:layout_width="87dp"
+
+        android:layout_height="53dp"
+        android:layout_margin="3dp"
+        android:layout_marginTop="22dp"
+        android:backgroundTint="#159595"
+        android:text="."
+        android:textAlignment="center"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toStartOf="@+id/zeroBTN"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sevenBTN" />
+
+    <Button
+        android:id="@+id/minusBTN"
+        android:layout_width="87dp"
+
+        android:layout_height="53dp"
+        android:layout_margin="3dp"
+        android:layout_marginTop="22dp"
+        android:backgroundTint="#5C7C3B"
+        android:text="-"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/resultBTN"
+        app:layout_constraintTop_toBottomOf="@+id/plusBTN" />
+
+    <Button
+        android:id="@+id/resultBTN"
+        android:layout_width="87dp"
+
+        android:layout_height="53dp"
+        android:layout_margin="3dp"
+        android:layout_marginTop="22dp"
+        android:backgroundTint="#D34949"
+        android:text="="
+        android:textSize="28sp"
+        app:layout_constraintEnd_toStartOf="@+id/minusBTN"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/zeroBTN"
+        app:layout_constraintTop_toBottomOf="@+id/nineBTN" />
+
+    <TextView
+        android:id="@+id/textView"
+
+        android:layout_width="387dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="107dp"
+        android:background="#A13434"
+        android:backgroundTint="#B19613"
+        android:text="Calculator By Umer"
+        android:textAlignment="center"
+        android:textColor="#E6DEDE"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="370dp"
+
+        android:layout_height="69dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="textEnd"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/threeBTN"
+        android:layout_width="87dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="51dp"
+        android:backgroundTint="#4590CC"
+        android:text="3"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toStartOf="@+id/multiplyBTN"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/twoBTN"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <Button
+        android:id="@+id/oneBTN"
+        android:layout_width="87dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="2dp"
+
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#4590CC"
+        android:text="1"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toStartOf="@+id/twoBTN"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <Button
+        android:id="@+id/twoBTN"
+        android:layout_width="87dp"
+        android:layout_height="53dp"
+
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="51dp"
+        android:backgroundTint="#4590CC"
+        android:text="2"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toStartOf="@+id/threeBTN"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/oneBTN"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <Button
+        android:id="@+id/multiplyBTN"
+        android:layout_width="87dp"
+        android:layout_height="53dp"
+
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#5C7C3B"
+        android:text="*"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/threeBTN"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+</androidx.constraintlayout.widget.ConstraintLayout>
